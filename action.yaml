@@ -1,0 +1,11 @@
+name: 'PrePost' 
+description: 'Simple action with Pre and Post scripts'
+author: 'Louis-Guillaume MORAND' 
+runs:
+  using: 'node12' 
+  main: 'index.js'
+  pre: 'pre.js'
+  post: 'post.js'
+branding:
+  icon: 'message-circle'  
+  color: 'orange' 
