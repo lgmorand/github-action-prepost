@@ -5,7 +5,9 @@ runs:
   using: 'node12' 
   main: 'index.js'
   pre: 'pre.js'
+  pre-if: 'runner.os != linux'
   post: 'post.js'
+  
 branding:
   icon: 'message-circle'  
   color: 'orange' 
