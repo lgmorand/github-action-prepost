@@ -5,7 +5,7 @@ runs:
   using: 'node12' 
   main: 'index.js'
   pre: 'pre.js'
-  pre-if: 'runner.os == 'ubuntu-latest''
+  pre-if: runner.os == "ubuntu-latest"
   post: 'post.js'
   post-if: 'failure()'
 branding:
