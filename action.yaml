@@ -7,7 +7,7 @@ runs:
   pre: 'pre.js'
   pre-if: runner.os == 'linux'
   post: 'post.js'
-  post-if: 'failure()'
+  post-if: 'success()'
 branding:
   icon: 'message-circle'  
   color: 'orange' 
