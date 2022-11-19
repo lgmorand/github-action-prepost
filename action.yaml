@@ -2,7 +2,7 @@ name: 'PrePost'
 description: 'Simple action with Pre and Post scripts'
 author: 'Louis-Guillaume MORAND' 
 runs:
-  using: 'node12' 
+  using: 'node16' 
   main: 'index.js'
   pre: 'pre.js'
   pre-if: runner.os == 'linux'
